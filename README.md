@@ -1,7 +1,7 @@
 # Amlogic Usb Driver Signed
 Self signed `libusb-win32` or `worldcup_device` Usb Driver for Amlogic or other compatible devices.
 
-Certificate for signing `libusb-win32` was expired on 2014 if you install the driver on Windows 7/8/10 you will see this error:
+Certificate for signing `libusb-win32` is expired on 2014 if you install the driver on Windows 7/8/10 you will see this error:
 
 ![libusb-win32-unsigned-warning](https://user-images.githubusercontent.com/760764/43999813-25ae4390-9e3e-11e8-9b9b-fb723fd59cc1.png)
 
