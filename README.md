@@ -5,7 +5,7 @@ Untuk menginstall driver pada komputer dengan OS Windows diperlukan driver yg su
 
 ![libusb-win32-unsigned-warning](https://user-images.githubusercontent.com/760764/43999813-25ae4390-9e3e-11e8-9b9b-fb723fd59cc1.png)
 
-Hal tersebut bisa diatasi dengan mengaktifkan mode `Disable Driver Signature Enforcement or using our drivers` tapi kekurangannya akan dilayar monitor akan ada keterangan `Test Mode...` yg kurang enak dipandang bahkan memudahkan virus menginstall driver ke komputer kita.
+Hal tersebut bisa diatasi dengan mengaktifkan mode `Disable Driver Signature Enforcement or using our drivers` tapi kekurangannya dilayar monitor akan ada keterangan `Test Mode...` yg kurang enak dipandang bahkan memudahkan virus menginstall driver ke komputer kita.
 
 ![test-mode](https://user-images.githubusercontent.com/760764/59989993-a7a84280-966b-11e9-9f55-30b5936f965b.jpg)
 
