@@ -1,7 +1,7 @@
 # Amlogic Usb Driver Signed
 `libusb-win32` or `worldcup_device` Usb Driver adalah driver Windows 7/8/10 untuk perangkat Amlogic yang biasa digunakan untuk set-top-box (stb) Android seperti B760h, B860h dan lainnya. 
 
-Untuk menginstall driver pada komputer dengan OS Windows diperlukan driver yg sudah bersertifikat akan tetapi sertifikat asli dari driver ini sudah kadaluarsa sehingga kita akan menemukan peringatan seperti dibawah saat menginstallnya
+Untuk menginstall driver pada komputer dengan OS Windows diperlukan driver yg sudah bersertifikat akan tetapi sertifikat asli dari driver ini sudah kadaluarsa sehingga saat menginstallnya kita akan menemukan peringatan seperti dibawah dan itu artinya drivernya tidak akan berfungsi walaupun sudah terinstall.
 
 ![libusb-win32-unsigned-warning](https://user-images.githubusercontent.com/760764/43999813-25ae4390-9e3e-11e8-9b9b-fb723fd59cc1.png)
 
