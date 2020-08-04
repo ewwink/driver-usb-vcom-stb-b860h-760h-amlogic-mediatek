@@ -7,7 +7,7 @@ Hal tersebut bisa diatasi dengan mengaktifkan mode `Disable Driver Signature Enf
 
 ![windows testmode](https://user-images.githubusercontent.com/760764/59989993-a7a84280-966b-11e9-9f55-30b5936f965b.jpg)
 
-Untuk itu daripada melakukan hal tersebut yg lumayan ribet caranya lebih baik kita memakai self signing certificate.
+Untuk itu daripada melakukan hal tersebut yg lumayan ribet caranya lebih baik kita memakai self signing driver certificate.
 
 ## Cara Install
 
