@@ -1,5 +1,5 @@
 # Signed Driver USB VCOM STB Android B760h (Mediatek), B860h (Amlogic)
-Untuk menghubungkan perangkat STB Android B760h, B860h atau yg mempunyai chipset Amlogic atau mediatek ke Windows 7/8/10 melalui USB dibutuhkan driver  `libusb-win32`, `worldcup_device`, atau  `MediaTek Preloader USB VCOM`  akan tetapi sertifikat asli dari driver ini sudah **kadaluwarsa** sehingga saat menginstallnya kita akan menemukan peringatan seperti dibawah dan itu artinya drivernya tidak akan berfungsi walaupun sudah terinstall.
+Untuk menghubungkan perangkat STB Android B760h, B860h (chipset Amlogic/mediatek) ke Windows 7/8/10 melalui USB dibutuhkan driver  `libusb-win32 worldcup_device`, atau  `MediaTek Preloader USB VCOM` akan tetapi sertifikat asli dari driver ini sudah **kadaluwarsa** sehingga saat menginstallnya kita akan menemukan peringatan seperti dibawah dan itu artinya drivernya tidak akan berfungsi walaupun sudah terinstall.
 
 ![libusb-win32-unsigned-warning](https://user-images.githubusercontent.com/760764/43999813-25ae4390-9e3e-11e8-9b9b-fb723fd59cc1.png)
 
