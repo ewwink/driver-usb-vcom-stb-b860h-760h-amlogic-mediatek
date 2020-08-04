@@ -15,23 +15,23 @@ Untuk itu daripada melakukan hal tersebut yg lumayan ribet caranya lebih baik ki
 - Download dan extract [amilogic_usb_drivers.zip](https://raw.githubusercontent.com/ewwink/amlogic-usb-world-cup-driver-signed/master/amilogic_usb_drivers.zip)
 - install sertifikat `libusb-win32.cer` dengan cara double-klik file-nya kemudian tekan tombol "Install Certificate.."
  
-![libusb-win32.cer](https://user-images.githubusercontent.com/760764/89237853-8069c600-d61e-11ea-9c36-d6aeb842ff38.jpg)
+  ![libusb-win32.cer](https://user-images.githubusercontent.com/760764/89237853-8069c600-d61e-11ea-9c36-d6aeb842ff38.jpg)
 
 - di `Store Location` pilih `Local Machine` kemudian klik Next
 
-![Certificate wizard](https://user-images.githubusercontent.com/760764/89237865-8a8bc480-d61e-11ea-966f-ed5a19e27bd3.jpg)
+  ![Certificate wizard](https://user-images.githubusercontent.com/760764/89237865-8a8bc480-d61e-11ea-966f-ed5a19e27bd3.jpg)
 
 - klik `Place All certificate....` kemudian tombol `Browse` dan pilih `Trusted Publisher` dan `OK`
 
-![add certificate trusted publisher](https://user-images.githubusercontent.com/760764/89237866-8b245b00-d61e-11ea-8530-609687f292a1.jpg)
+  ![add certificate trusted publisher](https://user-images.githubusercontent.com/760764/89237866-8b245b00-d61e-11ea-8530-609687f292a1.jpg)
 
 - Klik `Finish` dan sertifikat driver terinstall di komputer kamu.
 
-![4](https://user-images.githubusercontent.com/760764/89237869-8bbcf180-d61e-11ea-9503-8a5746c39d56.jpg)
+  ![4](https://user-images.githubusercontent.com/760764/89237869-8bbcf180-d61e-11ea-9503-8a5746c39d56.jpg)
 
 Untuk verifikasi bisa buka **`certmgr`** seperrti dibawah
 
-![Certificate manager windows](https://user-images.githubusercontent.com/760764/89237870-8bbcf180-d61e-11ea-9bc4-a4765ec9103e.jpg)
+  ![Certificate manager windows](https://user-images.githubusercontent.com/760764/89237870-8bbcf180-d61e-11ea-9bc4-a4765ec9103e.jpg)
 
 ### 2. Install Driver
 - Buka `Device Manager` kemudian Di Menu `Action` klik `Add legacy hardware`
