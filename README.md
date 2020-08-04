@@ -12,7 +12,7 @@ Untuk itu daripada melakukan hal tersebut yg lumayan ribet caranya lebih baik ki
 ## Cara Install
 
 ### 1. Install Sertifikat driver
-- Download dan extract [amilogic_usb_drivers.zip](https://raw.githubusercontent.com/ewwink/amlogic-usb-world-cup-driver-signed/master/amilogic_usb_drivers.zip)
+- Download dan extract [amilogic_usb_drivers.zip](https://github.com/ewwink/driver-usb-vcom-stb-b860h-760h-amlogic-mediatek/raw/master/amilogic_usb_drivers.zip) diatas
 - install sertifikat `libusb-win32.cer` dengan cara double-klik file-nya kemudian tekan tombol "Install Certificate.."
  
   ![libusb-win32.cer](https://user-images.githubusercontent.com/760764/89237853-8069c600-d61e-11ea-9c36-d6aeb842ff38.jpg)
