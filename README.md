@@ -1,3 +1,4 @@
+
 # Signed Driver USB VCOM STB Android B760h (Mediatek), B860h (Amlogic)
 Untuk menghubungkan perangkat STB Android B760h, B860h (chipset Amlogic/mediatek) ke Windows 7/8/10 melalui USB dibutuhkan driver  `libusb-win32 worldcup_device`, atau  `MediaTek Preloader USB VCOM` akan tetapi sertifikat asli dari driver ini sudah **kadaluwarsa** sehingga saat menginstallnya kita akan menemukan peringatan seperti dibawah dan itu artinya drivernya tidak akan berfungsi walaupun sudah terinstall.
 
@@ -12,6 +13,25 @@ Untuk itu daripada melakukan hal tersebut yg lumayan ribet caranya lebih baik ki
 ## Cara Install
 
 ### 1. Install Sertifikat driver
+
+**A. Dengan CMD (command prompt)**
+
+- Download dan extract [amilogic_usb_drivers.zip](https://github.com/ewwink/driver-usb-vcom-stb-b860h-760h-amlogic-mediatek/raw/master/amilogic_usb_drivers.zip) diatas, misal ke
+
+      C:\amilogic_usb_drivers
+     
+- download `certmgr.exe` diatas dan simpan di folder tadi
+- buka **`CMD`** dengan level admin atau klik kanan program `CMD` dan `Run as administrator`
+- jalankan perintah berikut
+
+      cd C:\amilogic_usb_drivers
+      certmgr.exe -add libusb-win32.cer -s -r localMachine ROOT  
+      certmgr.exe -add libusb-win32.cer -s -r localMachine TRUSTEDPUBLISHER
+
+Selesai install sertifikat lanjut install driver (langkah 2)
+
+**B. Dengan GUI**
+
 - Download dan extract [amilogic_usb_drivers.zip](https://github.com/ewwink/driver-usb-vcom-stb-b860h-760h-amlogic-mediatek/raw/master/amilogic_usb_drivers.zip) diatas
 - install sertifikat `libusb-win32.cer` dengan cara double-klik file-nya kemudian tekan tombol "Install Certificate.."
  
@@ -25,12 +45,14 @@ Untuk itu daripada melakukan hal tersebut yg lumayan ribet caranya lebih baik ki
 
   ![add certificate trusted publisher](https://user-images.githubusercontent.com/760764/89237866-8b245b00-d61e-11ea-8530-609687f292a1.jpg)
 
-- Klik `Finish` dan sertifikat driver terinstall di komputer kamu.
+- Klik `Finish`
 
   ![4](https://user-images.githubusercontent.com/760764/89237869-8bbcf180-d61e-11ea-9503-8a5746c39d56.jpg)
 
-Untuk verifikasi bisa buka **`certmgr`** seperrti dibawah
+- Ulangi `langkah B` dari awal, kalau tadi `Select certificate store` nya di `Trusted Publisher` sekarang pilih folder `Trusted Root Certification Authorities`
+- Selesai install sertifikat driver
 
+Untuk verifikasi bisa buka **`certmgr`** seperrti dibawah
   ![Certificate manager windows](https://user-images.githubusercontent.com/760764/89237870-8bbcf180-d61e-11ea-9bc4-a4765ec9103e.jpg)
 
 ### 2. Install Driver
